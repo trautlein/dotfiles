@@ -1,5 +1,6 @@
 alias bask='brew cask'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias git='hub'
 
 # export LC_CTYPE=en_US.UTF-8
 # export LC_ALL=en_US.UTF-8
