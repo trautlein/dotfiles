@@ -8,6 +8,7 @@ alias subl="~/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 export EDITOR=vi
+export PS1="\w ▶ "
 
 # source /usr/local/etc/bash_completion.d/password-store
 
