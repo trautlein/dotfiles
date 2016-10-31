@@ -2,7 +2,6 @@ set fish_greeting ""
 
 set PATH /usr/local/bin $PATH
 set PATH /usr/local/sbin $PATH
-set PATH /usr/local/n $PATH
 
 ### Hack Reactor Aliases
 alias hr='cd ~/hr; ls -l'
@@ -13,11 +12,10 @@ alias w3='cd ~/hr/w3; ls -l'
 alias w4='cd ~/hr/w4; ls -l'
 alias w5='cd ~/hr/w5; ls -l'
 alias w6='cd ~/hr/w6; ls -l'
-
 alias tp='cd ~/hr/toy-problems; ls -l'
 alias assessments='cd ~/hr/assessments; ls -l'
 
-alias find_mongo='ps -ax | grep mongo'
+alias find_process='ps -ax | grep'
 alias install_react='npm install babel-cli babel-preset-es2015 babel-preset-react'
 
 alias tre='tree -C -I "node_modules|bower_components|.DS_Store"'
@@ -25,6 +23,7 @@ alias pom_install='curl -s https://raw.githubusercontent.com/reactorcore/pomande
 
 alias ydl='youtube-dl'
 
+alias c='clear'
 alias g='git'
 alias bask='brew cask'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
@@ -39,44 +38,13 @@ alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 # mcd () { mkdir -p "$1" and cd "$1"; }    # mcd: Makes new Dir and jumps inside
 
-# GIT BELOW
-
-alias gitl="git log --graph --pretty=format:'%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-
-
-set normal (set_color normal)
-set magenta (set_color magenta)
-set yellow (set_color yellow)
-set green (set_color green)
-set red (set_color red)
-set gray (set_color -o black)
-
-# Fish git prompt
-set __fish_git_prompt_showdirtystate 'yes'
-set __fish_git_prompt_showstashstate 'yes'
-set __fish_git_prompt_showuntrackedfiles 'yes'
-set __fish_git_prompt_showupstream 'yes'
-set __fish_git_prompt_color_branch yellow
-set __fish_git_prompt_color_upstream_ahead green
-set __fish_git_prompt_color_upstream_behind red
-
-# Status Chars
-set __fish_git_prompt_char_dirtystate '⚡'
-set __fish_git_prompt_char_stagedstate '→'
-set __fish_git_prompt_char_untrackedfiles '☡'
-set __fish_git_prompt_char_stashstate '↩'
-set __fish_git_prompt_char_upstream_ahead '⬇'
-set __fish_git_prompt_char_upstream_behind '⬆'
-
+export EDITOR='vim'
 
 function fish_prompt
   set last_status $status
 
   set_color $fish_color_cwd
-  printf '%s' (prompt_pwd)
-  set_color normal
-
-  printf '%s ' (__fish_git_prompt)
+  printf '%s ' (prompt_pwd)
 
   set_color normal
 end
@@ -85,4 +53,5 @@ end
 # set fish_function_path $fish_function_path "/usr/local/lib/python2.7/site-packages/powerline/bindings/fish"
 # powerline-setup
 
+alias ss="tmux attach -t base ;or tmux new -s base"
 
