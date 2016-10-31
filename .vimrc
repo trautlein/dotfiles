@@ -1,31 +1,37 @@
-call plug#begin('~/.vim/plugged')
-  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-  Plug 'junegunn/fzf.vim'
-  Plug 'Yggdroot/indentLine'
-  Plug 'tpope/vim-surround'
-  Plug 'tpope/vim-fugitive'
-  Plug 'mxw/vim-jsx'
-  Plug 'airblade/vim-gitgutter'
-  Plug 'rizzatti/dash.vim'
-  Plug 'taglist.vim'
-  Plug 'mattn/emmet-vim'
-  Plug 'easymotion/vim-easymotion'
-  Plug 'nathanaelkane/vim-indent-guides'
-  Plug 'christoomey/vim-tmux-navigator'
-  Plug 'scrooloose/nerdtree'
-  Plug 'terryma/vim-multiple-cursors'
-  Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
-  Plug 'pangloss/vim-javascript'
-  Plug 'mxw/vim-jsx'
-  Plug 'tpope/vim-unimpaired'
-  Plug 'chriskempson/base16-vim'
-  Plug 'scrooloose/syntastic'
-call plug#end()
-filetype plugin indent on  
+"Hans Trautlein - hans@trautlein.com
+
+"""  Plugins 
+  call plug#begin('~/.vim/plugged')
+    Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+    Plug 'junegunn/fzf.vim'
+    Plug 'Yggdroot/indentLine'
+    Plug 'tpope/vim-surround'
+    Plug 'tpope/vim-fugitive'
+    Plug 'mxw/vim-jsx'
+    Plug 'airblade/vim-gitgutter'
+    Plug 'rizzatti/dash.vim'
+    Plug 'taglist.vim'
+    Plug 'mattn/emmet-vim'
+    Plug 'easymotion/vim-easymotion'
+    Plug 'nathanaelkane/vim-indent-guides'
+    Plug 'christoomey/vim-tmux-navigator'
+    Plug 'scrooloose/nerdtree'
+    Plug 'terryma/vim-multiple-cursors'
+    Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+    Plug 'pangloss/vim-javascript'
+    Plug 'mxw/vim-jsx'
+    Plug 'tpope/vim-unimpaired'
+    Plug 'chriskempson/base16-vim'
+    Plug 'scrooloose/syntastic'
+  call plug#end()
+  filetype plugin indent on  
+""" Plugins
 
 let mapleader=" "
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
+nmap <silent> <leader>r :NERDTreeToggle<CR>
+nmap <silent> ,w :w<CR>
 
 imap jk <Esc>
 imap kj <Esc>
@@ -61,6 +67,7 @@ set shiftwidth=2
 set expandtab
 set showmatch
 set linebreak
+set clipboard=unnamed
 
 set incsearch
 set hlsearch
