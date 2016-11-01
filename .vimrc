@@ -33,8 +33,8 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 nmap <silent> <leader>r :NERDTreeToggle<CR>
 nmap <silent> ,w :w<CR>
 
-imap jk <Esc>
-imap kj <Esc>
+imap jk <Esc>l
+imap kj <Esc>l
 
 map ; :
 noremap ;; ;
