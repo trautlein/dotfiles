@@ -1,0 +1,28 @@
+[user]
+	name = Hans Trautlein
+	email = hans@trautlein.com
+[push]
+	default = simple
+[core]
+	editor = /usr/local/bin/vim
+	excludesfile = /Users/hans/.gitignore
+[alias]
+  c = commit --verbose
+  ca = commit --verbose --all
+  cm = commit --message
+  r = rm
+  l = log --graph --pretty=format:'%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  a = add
+  aa = add --all
+  d = diff
+  dc = diff --cached
+  ds = diff --stat
+  dsc = diff --cached --stat
+  dsc = diff --cached --stat
+  s = status --short --branch
+  co = checkout
+  cob = checkout -b
+  b = branch
+	cd = icdiff
+  pl = pull
+  plr = pull --rebase
