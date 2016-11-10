@@ -23,6 +23,8 @@
     Plug 'tpope/vim-unimpaired'
     Plug 'chriskempson/base16-vim'
     Plug 'scrooloose/syntastic'
+    Plug 'tomtom/tcomment_vim'
+    Plug 'Valloric/YouCompleteMe'
   call plug#end()
   filetype plugin indent on  
 """ Plugins
@@ -40,6 +42,7 @@ map ; :
 noremap ;; ;
 
 nnoremap <Leader><Space> :ls<CR>:b<Space>
+nnoremap <Leader>7 :ls<CR>:bd<Space>
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
 
@@ -67,7 +70,9 @@ set shiftwidth=2
 set expandtab
 set showmatch
 set linebreak
-set clipboard=unnamed
+if $TMUX == ''
+  set clipboard=unnamed
+endif
 
 set incsearch
 set hlsearch
@@ -116,3 +121,9 @@ highlight link SyntasticStyleErrorSign SignColumn
 highlight link SyntasticStyleWarningSign SignColumn
 
 let g:syntastic_javascript_checkers = ['eslint']
+
+"Make vim diffs vertical panes instead of horizontal
+set diffopt+=vertical
+
+map <F4> :NERDTreeToggle<CR> "open NERDTree with command
+
