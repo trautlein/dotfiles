@@ -21,11 +21,12 @@ alias install_react='npm install babel-cli babel-preset-es2015 babel-preset-reac
 alias tre='tree -C -I "node_modules|bower_components|.DS_Store"'
 alias pom_install='curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash'
 
-alias ydl='youtube-dl'
+alias ydl='cd ~/Movies ;and youtube-dl'
 
 alias c='clear'
 alias g='git'
 alias bask='brew cask'
+alias de='cd ~/Desktop'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias git='hub'
 alias tppr='git push ; git pull-request -o -b hackreactor:trautlein -h trautlein:master -m'
