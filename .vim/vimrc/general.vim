@@ -2,6 +2,8 @@
 
 set incsearch
 set hlsearch
+set ignorecase
+set smartcase
 
 set backup
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp

@@ -44,3 +44,9 @@ let g:used_javascript_libs = 'react,flux,chai'
 let g:tern_map_keys=1
 let g:tern_show_argument_hints='on_hold'
 
+" FUGITIVE
+autocmd BufReadPost fugitive://* set bufhidden=delete
+
+
+" MARKDOWN PREVIEW
+let vim_markdown_preview_github=1

@@ -27,3 +27,5 @@ set expandtab
 set showmatch
 set linebreak
 
+let g:indent_guides_auto_colors = 1
+
