@@ -12,6 +12,7 @@ alias w3='cd ~/hr/w3; ls -l'
 alias w4='cd ~/hr/w4; ls -l'
 alias w5='cd ~/hr/w5; ls -l'
 alias w6='cd ~/hr/w6; ls -l'
+alias thesis='cd ~/hr/thesis; ls -l'
 alias tp='cd ~/hr/toy-problems; ls -l'
 alias assessments='cd ~/hr/assessments; ls -l'
 
