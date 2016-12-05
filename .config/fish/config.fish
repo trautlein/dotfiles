@@ -4,6 +4,7 @@ set PATH /usr/local/bin $PATH
 set PATH /usr/local/sbin $PATH
 
 ### Hack Reactor Aliases
+alias hir='cd ~/hir; ls -l'
 alias hr='cd ~/hr; ls -l'
 alias w0='cd ~/hr/w0; ls -l'
 alias w1='cd ~/hr/w1; ls -l'
