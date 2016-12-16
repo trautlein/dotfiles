@@ -27,6 +27,7 @@ alias ydl='cd ~/Movies ;and youtube-dl'
 
 alias c='clear'
 alias g='git'
+alias v='vim'
 alias bask='brew cask'
 alias de='cd ~/Desktop'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
@@ -40,6 +41,7 @@ alias .3='cd ../../../'                     # Go back 3 directory levels
 alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 # mcd () { mkdir -p "$1" and cd "$1"; }    # mcd: Makes new Dir and jumps inside
+
 
 export EDITOR='vim'
 
