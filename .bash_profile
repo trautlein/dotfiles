@@ -16,5 +16,3 @@ export PATH="/usr/local/n/:/usr/local/sbin:/usr/local/bin:$PATH"
 # export EDITOR=vim
 export PS1="\w ▶ "
 
-
-
