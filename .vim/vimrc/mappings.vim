@@ -5,6 +5,9 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 nmap <silent> <leader>r :NERDTreeToggle<CR>
 nmap <silent> <leader>w :w<CR>
 
+nmap <silent> <leader>g :Gstatus<CR>
+nmap <silent> <leader>c :Gcommit -v<CR>
+
 imap jk <Esc>l
 imap kj <Esc>l
 
