@@ -1,0 +1,23 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.cursorStyle": "block",
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+    "workbench.activityBar.visible": false,
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "terminal.integrated.fontLigatures": true,
+    "vim.easymotion": true,
+    "vim.leader": " ",
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "files.associations": {
+      "*.js": "javascriptreact"
+    }
+}
