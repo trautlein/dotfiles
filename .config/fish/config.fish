@@ -17,6 +17,9 @@ alias thesis='cd ~/hr/thesis; ls -l'
 alias tp='cd ~/hr/toy-problems; ls -l'
 alias assessments='cd ~/hr/assessments; ls -l'
 
+alias ta='tmux attach -t'
+alias tn='tmux new -s'
+
 alias find_process='ps -ax | grep'
 alias install_react='npm install babel-cli babel-preset-es2015 babel-preset-react'
 
