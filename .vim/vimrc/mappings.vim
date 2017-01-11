@@ -15,12 +15,13 @@ map ; :
 noremap ;; ;
 
 nnoremap <Leader><Space> :ls<CR>:b<Space>
-nnoremap <Leader>f :FZF<CR>
+nnoremap x "_x
+nnoremap <Leader>f :Ag<CR>
 nnoremap <Leader>7 :ls<CR>:bd<Space>
 nnoremap <Leader>j :noh<CR>
 nnoremap <Leader>R :redraw!<CR>
-nnoremap <Tab> :bnext<CR>
-nnoremap <S-Tab> :bprevious<CR>
+nnoremap <Tab> gt
+nnoremap <S-Tab> gT
 
 " would like to reenable this sometime " map <Leader><Plug>(easymotion-prefix)
 
@@ -45,3 +46,7 @@ nmap <C-Down> ddp
 " Bubble multiple lines
 vmap <C-Up> xkP`[V`]
 vmap <C-Down> xp`[V`]
+
+
+autocmd FileType javascript imap <silent> <C-8> <c-o><Plug>(cosco-commaOrSemiColon)
+
