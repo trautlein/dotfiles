@@ -34,9 +34,12 @@ call plug#begin('~/.vim/plugged')
 
   " TEXT EDITING
   Plug 'ervandew/supertab'
-  Plug 'Valloric/YouCompleteMe'
+  " Plug 'Valloric/YouCompleteMe'
   Plug 'godlygeek/tabular'
   Plug 'jiangmiao/auto-pairs'
+  Plug 'lfilho/cosco.vim'
+  Plug 'SirVer/ultisnips'
+  Plug 'honza/vim-snippets'
 
   " GENERAL
   Plug 'tpope/vim-fugitive'
