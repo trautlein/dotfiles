@@ -6,6 +6,10 @@
 
   let g:jsx_ext_required = 0
 
+" Utilsnips
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 """ SYNTASTIC
   set statusline+=%#warningmsg#
