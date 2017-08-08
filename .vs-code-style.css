@@ -1,0 +1,10 @@
+.token.keyword.operator,
+.js.storage.function.arrow {
+  font-family: 'Fira Code';
+}
+
+.mtk4,
+.mtk7,
+.mtk15 {
+  font-family: 'Fira Code';
+}
