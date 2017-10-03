@@ -2,22 +2,22 @@ call plug#begin('~/.vim/plugged')
   " VISUAL
   Plug 'chriskempson/base16-vim'
   Plug 'Yggdroot/indentLine'
-  Plug 'nathanaelkane/vim-indent-guides'
+  " Plug 'nathanaelkane/vim-indent-guides'
   Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
   Plug 'airblade/vim-gitgutter'
   Plug 'gcmt/taboo.vim'
 
   "LANGUAGE SPECIFIC
-  Plug 'scrooloose/syntastic'
-  Plug 'pangloss/vim-javascript'
-  Plug 'mxw/vim-jsx'
-  Plug 'jelera/vim-javascript-syntax'
+  Plug 'othree/yajs.vim'
   Plug 'othree/javascript-libraries-syntax.vim'
+  Plug 'mxw/vim-jsx'
+
   Plug 'mattn/emmet-vim'
   Plug 'ternjs/tern_for_vim'
   Plug 'JamshedVesuna/vim-markdown-preview'
-  Plug 'posva/vim-vue'
-  Plug 'fatih/vim-go'
+
+  Plug 'leafgarland/typescript-vim'
+  Plug 'Quramy/tsuquyomi'
 
   " MOTIONS
   Plug 'tpope/vim-surround'
@@ -40,14 +40,16 @@ call plug#begin('~/.vim/plugged')
   Plug 'lfilho/cosco.vim'
   Plug 'SirVer/ultisnips'
   Plug 'honza/vim-snippets'
+  Plug 'tpope/vim-repeat'
 
   " GENERAL
+  Plug 'scrooloose/syntastic'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-unimpaired'
   Plug 'rizzatti/dash.vim'
   Plug 'danro/rename.vim'
   Plug 'mileszs/ack.vim'
-  Plug 'wakatime/vim-wakatime'
+  " Plug 'wakatime/vim-wakatime'
 call plug#end()
 filetype plugin indent on
 syntax enable

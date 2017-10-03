@@ -1,7 +1,5 @@
 " This folder holds all of my Vim functions.
-" Loaded on line ___ of my .vimrc
-"
-"
+
 " Function that removes all non-visible buffers. Call with :call Wipeout()
 function! Wipeout()
   " list of *all* buffer numbers

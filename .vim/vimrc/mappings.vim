@@ -17,14 +17,13 @@ noremap ;; ;
 nnoremap <Leader><Space> :ls<CR>:b<Space>
 nnoremap x "_x
 nnoremap <Leader>f :Ag<CR>
-nnoremap <Leader>7 :ls<CR>:bd<Space>
+nnoremap <Leader>h :ls<CR>:b<Space>
+nnoremap <Leader>y :ls<CR>:bd<Space>
 nnoremap <Leader>j :noh<CR>
 nnoremap <Leader>R :redraw!<CR>
+nnoremap <Leader>k :tabe 
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
-
-" would like to reenable this sometime " map <Leader><Plug>(easymotion-prefix)
-
 
 set pastetoggle=<F2>
 
@@ -36,17 +35,8 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-map <F4> <Esc>:NERDTreeToggle<CR> 
 map <F5> <Esc>:GitGutterLineHighlightsToggle<CR>
-map <F5> <Esc>:GundoToggle<CR>
-
-" Bubble single lines
-nmap <C-Up> ddkP
-nmap <C-Down> ddp
-" Bubble multiple lines
-vmap <C-Up> xkP`[V`]
-vmap <C-Down> xp`[V`]
-
+map <F6> <Esc>:GundoToggle<CR>
 
 autocmd FileType javascript imap <silent> <C-8> <c-o><Plug>(cosco-commaOrSemiColon)
 
