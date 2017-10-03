@@ -11,7 +11,6 @@ alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 mcd () { mkdir -p "$1" && cd "$1"; }    # mcd: Makes new Dir and jumps inside
 
-alias pom_install="curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash"
 
 export PATH="/usr/local/n/:/usr/local/sbin:/usr/local/bin:$PATH"
 # export EDITOR=vim
