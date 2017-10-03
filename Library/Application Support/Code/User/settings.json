@@ -5,8 +5,7 @@
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "blink",
   "window.zoomLevel": 0,
-  "editor.tabSize": 2,
-  "workbench.activityBar.visible": true,
+  "workbench.activityBar.visible": false,
   "editor.renderWhitespace": "boundary",
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
   "terminal.integrated.fontLigatures": true,
@@ -22,7 +21,7 @@
     "*.js": "javascriptreact",
     "*.pl": "prolog"
   },
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "vscode-icons",
   "vim.disableAnnoyingNeovimMessage": true,
   "vim.statusBarColorControl": true,
@@ -38,12 +37,20 @@
   "editor.minimap.enabled": false,
   "workbench.startupEditor": "newUntitledFile",
   "editor.formatOnSave": true,
-  "prettier.singleQuote": true,
   "workbench.colorCustomizations": {
     "statusBar.background": "#005f5f",
     "statusBar.noFolderBackground": "#005f5f",
     "statusBar.debuggingBackground": "#005f5f"
   },
   "editor.renderIndentGuides": false,
-  "vscode_custom_css.imports": ["file:///Users/hans/.vs-code-style.css"]
+  "vscode_custom_css.imports": ["file:///Users/hans/.vs-code-style.css"],
+  "editor.rulers": [81],
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "git.enableSmartCommit": true,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 80,
+  "prettier.semi": false,
+  "javascript.validate.enable": false,
+  "editor.tabSize": 2
 }
