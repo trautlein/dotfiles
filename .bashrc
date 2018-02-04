@@ -2,9 +2,8 @@
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 alias bask='brew cask'
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias git='hub'
-alias subl="~/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias ll='ls -FGlAhp'
 alias ..='cd ../'                           # Go back 1 directory level
 alias ...='cd ../../'                       # Go back 2 directory levels
@@ -15,8 +14,8 @@ alias .5='cd ../../../../../'               # Go back 5 directory levels
 mcd () { mkdir -p "$1" && cd "$1"; }    # mcd: Makes new Dir and jumps inside
 
 
-export PATH="/usr/local/n/:/usr/local/sbin:/usr/local/bin:$PATH"
-# export EDITOR=vim
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+export EDITOR=vim
 export PS1="\w ▶ "
 
 
