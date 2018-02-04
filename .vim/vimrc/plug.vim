@@ -12,12 +12,12 @@ call plug#begin('~/.vim/plugged')
   Plug 'othree/javascript-libraries-syntax.vim'
   Plug 'mxw/vim-jsx'
 
+  Plug 'leafgarland/typescript-vim'
+  Plug 'Quramy/tsuquyomi'
+
   Plug 'mattn/emmet-vim'
   Plug 'ternjs/tern_for_vim'
   Plug 'JamshedVesuna/vim-markdown-preview'
-
-  Plug 'leafgarland/typescript-vim'
-  Plug 'Quramy/tsuquyomi'
 
   " MOTIONS
   Plug 'tpope/vim-surround'
@@ -49,7 +49,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'rizzatti/dash.vim'
   Plug 'danro/rename.vim'
   Plug 'mileszs/ack.vim'
-  " Plug 'wakatime/vim-wakatime'
 call plug#end()
 filetype plugin indent on
 syntax enable
