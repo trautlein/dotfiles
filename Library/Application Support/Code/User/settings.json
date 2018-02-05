@@ -3,9 +3,9 @@
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.cursorStyle": "line",
-  "editor.cursorBlinking": "blink",
+  "editor.cursorBlinking": "solid",
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "editor.renderWhitespace": "boundary",
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
   "terminal.integrated.fontLigatures": true,
@@ -13,8 +13,13 @@
   "vim.leader": " ",
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "k"],
-      "after": ["<Esc>"]
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
   ],
   "files.associations": {
@@ -43,8 +48,12 @@
     "statusBar.debuggingBackground": "#005f5f"
   },
   "editor.renderIndentGuides": false,
-  "vscode_custom_css.imports": ["file:///Users/hans/.vs-code-style.css"],
-  "editor.rulers": [81],
+  "vscode_custom_css.imports": [
+    "file:///Users/hans/.vs-code-style.css"
+  ],
+  "editor.rulers": [
+    80
+  ],
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "git.enableSmartCommit": true,
@@ -52,5 +61,6 @@
   "editor.wordWrapColumn": 80,
   "prettier.semi": false,
   "javascript.validate.enable": false,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "workbench.panel.location": "bottom"
 }
