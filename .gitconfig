@@ -1,6 +1,7 @@
 [user]
 	name = Hans Trautlein
 	email = hans@trautlein.com
+	signingkey = 454B057262799F31
 [push]
 	default = simple
 [core]
