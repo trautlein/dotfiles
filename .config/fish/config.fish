@@ -1,5 +1,6 @@
 ### PATH + EXPORTS
-  set PATH $PATH ./node_modules/.bin ~/go/bin
+  set PATH $PATH ./node_modules/.bin ~/.go/bin
+  set -x -U GOPATH $HOME/.go
   export EDITOR='vim'
 
 ### ALIASES
@@ -18,11 +19,14 @@
   alias c='clear'
   alias g='git'
   alias v='vim'
+  alias rm='rm -i'
+  alias rmr='rm -r'
   alias ll='exa -l'
   alias grep='grep -i'
   alias find_process='ps -ax | grep'
   alias tre='tree -C -I "node_modules|bower_components|.DS_Store"'
   alias ydl='cd ~/Movies ;and youtube-dl'
+  alias y='youtube-dl -ci'
   alias bask='brew cask'
   alias de='cd ~/Desktop'
   alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
@@ -97,8 +101,6 @@ echo_color "c-f  Move forward"
 echo_color "c-b  Move backward"
 echo_color "c-p  Move up"
 echo_color "c-n  Move down"
-echo_color "c-a  Jump to beginning of line"
-echo_color "c-e  Jump to end of line"
 echo_color "c-d  Delete forward"
 echo_color "c-h  Delete backward"
 echo_color "c-k  Delete forward to end of line"
