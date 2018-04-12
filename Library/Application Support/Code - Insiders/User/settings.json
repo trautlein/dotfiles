@@ -1,4 +1,5 @@
 {
+  "typescript.experimental.syntaxFolding": true,
   "editor.fontFamily": "Operator Mono",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
@@ -26,7 +27,6 @@
     "*.js": "javascriptreact",
     "*.pl": "prolog"
   },
-  "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "vscode-icons",
   "vim.disableAnnoyingNeovimMessage": true,
   "vim.statusBarColorControl": true,
@@ -43,9 +43,9 @@
   "workbench.startupEditor": "newUntitledFile",
   "editor.formatOnSave": true,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#005f5f",
-    "statusBar.noFolderBackground": "#005f5f",
-    "statusBar.debuggingBackground": "#005f5f"
+    "statusBar.background": "#5f0000",
+    "statusBar.noFolderBackground": "#5f0000",
+    "statusBar.debuggingBackground": "#5f0000"
   },
   "editor.renderIndentGuides": false,
   "vscode_custom_css.imports": [
@@ -62,5 +62,6 @@
   "prettier.semi": false,
   "javascript.validate.enable": false,
   "editor.tabSize": 2,
-  "workbench.panel.location": "bottom"
+  "workbench.panel.location": "bottom",
+  "workbench.colorTheme": "Monokai"
 }
