@@ -1,0 +1,67 @@
+{
+  "typescript.experimental.syntaxFolding": true,
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "solid",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "editor.renderWhitespace": "boundary",
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "terminal.integrated.fontLigatures": true,
+  "vim.easymotion": true,
+  "vim.leader": " ",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.pl": "prolog"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "vim.disableAnnoyingNeovimMessage": true,
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors": {
+    "normal": "#005f5f",
+    "insert": "#5f0000",
+    "visual": "#5f00af",
+    "visualline": "#005f87",
+    "visualblock": "#86592d",
+    "replace": "#000000"
+  },
+  "guides.enabled": false,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#5f0000",
+    "statusBar.noFolderBackground": "#5f0000",
+    "statusBar.debuggingBackground": "#5f0000"
+  },
+  "editor.renderIndentGuides": false,
+  "vscode_custom_css.imports": [
+    "file:///Users/hans/.vs-code-style.css"
+  ],
+  "editor.rulers": [
+    80
+  ],
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "git.enableSmartCommit": true,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 80,
+  "prettier.semi": false,
+  "javascript.validate.enable": false,
+  "editor.tabSize": 2,
+  "workbench.panel.location": "bottom",
+  "workbench.colorTheme": "Monokai"
+}
