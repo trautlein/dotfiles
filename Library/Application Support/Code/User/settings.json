@@ -1,17 +1,32 @@
 {
-  "typescript.experimental.syntaxFolding": true,
-  "editor.fontFamily": "Operator Mono",
-  "editor.fontSize": 14,
-  "editor.fontLigatures": true,
-  "editor.cursorStyle": "line",
   "editor.cursorBlinking": "solid",
-  "window.zoomLevel": 0,
-  "workbench.activityBar.visible": true,
+  "editor.cursorStyle": "line",
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
   "editor.renderWhitespace": "boundary",
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 80,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.pl": "prolog"
+  },
+  "git.enableSmartCommit": true,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "javascript.validate.enable": false,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
-  "terminal.integrated.fontLigatures": true,
+  "typescript.experimental.syntaxFolding": true,
   "vim.easymotion": true,
-  "vim.leader": " ",
   "vim.insertModeKeyBindings": [
     {
       "before": [
@@ -23,12 +38,7 @@
       ]
     }
   ],
-  "files.associations": {
-    "*.js": "javascriptreact",
-    "*.pl": "prolog"
-  },
-  "workbench.iconTheme": "vscode-icons",
-  "vim.disableAnnoyingNeovimMessage": true,
+  "vim.leader": " ",
   "vim.statusBarColorControl": true,
   "vim.statusBarColors": {
     "normal": "#005f5f",
@@ -38,30 +48,14 @@
     "visualblock": "#86592d",
     "replace": "#000000"
   },
-  "guides.enabled": false,
-  "editor.minimap.enabled": false,
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.formatOnSave": true,
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {
     "statusBar.background": "#005f5f",
     "statusBar.noFolderBackground": "#005f5f",
     "statusBar.debuggingBackground": "#005f5f"
   },
-  "editor.renderIndentGuides": false,
-  "vscode_custom_css.imports": [
-    "file:///Users/hans/.vs-code-style.css"
-  ],
-  "editor.rulers": [
-    80
-  ],
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "es5",
-  "git.enableSmartCommit": true,
-  "editor.wordWrap": "bounded",
-  "editor.wordWrapColumn": 80,
-  "prettier.semi": false,
-  "javascript.validate.enable": false,
-  "editor.tabSize": 2,
-  "workbench.panel.location": "bottom",
-  "workbench.colorTheme": "Monokai"
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.startupEditor": "newUntitledFile",
 }

@@ -1,3 +1,11 @@
+/* What I will put in vscode settings
+
+  "vscode_custom_css.imports": [
+    "file:///Users/hans/.vs-code-style.css"
+  ],
+
+*/
+
 .token.keyword.operator,
 .js.storage.function.arrow {
   font-family: 'Fira Code';
@@ -9,3 +17,5 @@
 .mtk15 {
   font-family: 'Fira Code';
 }
+
+
