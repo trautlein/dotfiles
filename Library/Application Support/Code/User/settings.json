@@ -6,7 +6,6 @@
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
-  "editor.renderIndentGuides": false,
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [
     80
@@ -55,7 +54,7 @@
     "statusBar.noFolderBackground": "#005f5f",
     "statusBar.debuggingBackground": "#005f5f"
   },
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "Base16 Dark Oceanic Next",
   "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "newUntitledFile",
 }
