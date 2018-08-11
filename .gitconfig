@@ -3,7 +3,7 @@
 	email = hans@trautlein.com
 	signingkey = 454B057262799F31
 [push]
-	default = simple
+	default = current
 [core]
 	editor = /usr/local/bin/vim
 	excludesfile = /Users/hans/.gitignore
@@ -32,3 +32,12 @@
 	oldHighlight = red bold 52
 	newNormal = green bold
 	newHighlight = green bold 22
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
