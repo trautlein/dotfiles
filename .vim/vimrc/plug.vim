@@ -1,10 +1,11 @@
 call plug#begin('~/.vim/plugged')
   " VISUAL
   Plug 'chriskempson/base16-vim'
+  Plug 'dracula/vim', { 'as': 'dracula' }
   Plug 'Yggdroot/indentLine'
   " Plug 'nathanaelkane/vim-indent-guides'
-  Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
-  Plug 'airblade/vim-gitgutter'
+  " Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+  " Plug 'airblade/vim-gitgutter'
   Plug 'gcmt/taboo.vim'
 
   "LANGUAGE SPECIFIC
@@ -16,7 +17,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'Quramy/tsuquyomi'
 
   Plug 'mattn/emmet-vim'
-  Plug 'ternjs/tern_for_vim'
+  " Plug 'ternjs/tern_for_vim'
   Plug 'JamshedVesuna/vim-markdown-preview'
 
   " MOTIONS
@@ -38,8 +39,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'godlygeek/tabular'
   Plug 'jiangmiao/auto-pairs'
   Plug 'lfilho/cosco.vim'
-  Plug 'SirVer/ultisnips'
-  Plug 'honza/vim-snippets'
+  " Plug 'SirVer/ultisnips'
+  " Plug 'honza/vim-snippets'
   Plug 'tpope/vim-repeat'
 
   " GENERAL

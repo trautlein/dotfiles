@@ -56,8 +56,8 @@ autocmd FileType javascript,css imap <silent> <Leader>; <c-o><Plug>(cosco-commaO
   let g:used_javascript_libs = 'react,jquery,underscore,chai'
 
 """ YouCompleteMe and Tern
-  let g:tern_map_keys=1
-  let g:tern_show_argument_hints='on_hold'
+  " let g:tern_map_keys=1
+  " let g:tern_show_argument_hints='on_hold'
 
 """ Fugitive
   autocmd BufReadPost fugitive://* set bufhidden=delete

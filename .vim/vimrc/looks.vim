@@ -5,7 +5,8 @@ set splitbelow splitright
 
 set t_Co=256 " turn on 256 colors for terminals that support it
 
-colorscheme base16-monokai
+" colorscheme dracula
+colorscheme default
 
 set laststatus=2 "for powerline
 
@@ -26,7 +27,7 @@ set shiftwidth=2
 set expandtab
 set showmatch
 set linebreak
-set cursorline
+" set cursorline
 
 " let g:indent_guides_auto_colors = 1
 
