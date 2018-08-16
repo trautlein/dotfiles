@@ -7,15 +7,14 @@
 */
 
 .token.keyword.operator,
-.js.storage.function.arrow {
-  font-family: 'Fira Code';
-}
-
+.js.storage.function.arrow,
 .mtk4,
 .mtk6,
 .mtk7,
+.mtk11,
+.mtk14,
 .mtk15 {
-  font-family: 'Fira Code';
+  font-family: 'Fira Code' !important;
 }
 
 

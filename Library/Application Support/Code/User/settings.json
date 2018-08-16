@@ -13,6 +13,7 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 80,
+  "emmet.triggerExpansionOnTab": true,
   "files.associations": {
     "*.js": "javascriptreact",
     "*.pl": "prolog"
@@ -38,6 +39,26 @@
     }
   ],
   "vim.leader": " ",
+  "vim.otherModesKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "j"
+      ],
+      "after": [
+        "g",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "k"
+      ],
+      "after": [
+        "g",
+        "k"
+      ]
+    }
+  ],
   "vim.statusBarColorControl": true,
   "vim.statusBarColors": {
     "normal": "#005f5f",
@@ -54,7 +75,15 @@
     "statusBar.noFolderBackground": "#005f5f",
     "statusBar.debuggingBackground": "#005f5f"
   },
-  "workbench.colorTheme": "Base16 Dark Oceanic Next",
+  "workbench.colorTheme": "Base16 Light Google",
   "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "ruby.useLanguageServer": true,
+  "vim.smartcase": true,
+  "vim.easymotionMarkerFontFamily": "Operator Mono",
+  "breadcrumbs.enabled": true
 }

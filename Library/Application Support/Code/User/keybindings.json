@@ -22,5 +22,29 @@
     "key": "ctrl+t",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
-  }
+  },
+  {
+    "key": "ctrl+n", // "cmd+n" on mac
+    "command": "extension.advancedNewFile",
+  },
+  {
+    "key": "cmd+k t",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "cmd+k cmd+r",
+    "command": "workbench.action.terminal.focusPrevious"
+  },
+  {
+    "key": "cmd+t cmd+n",
+    "command": "workbench.action.terminal.newInActiveWorkspace"
+  },
+  {
+    "key": "cmd+shift+j",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "cmd+k cmd+t",
+    "command": "workbench.action.selectTheme"
+  },
 ]
