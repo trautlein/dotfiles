@@ -1,4 +1,4 @@
 -ci
--f bestvideo[height<=?1080]+bestaudio/best
+--format mp4/bestvideo[height<=?1080]+bestaudio/best
 --output '/Users/hans/Movies/yt/%(title)s - %(id)s.%(ext)s'
 
