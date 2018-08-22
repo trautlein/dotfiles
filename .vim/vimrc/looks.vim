@@ -5,8 +5,8 @@ set splitbelow splitright
 
 set t_Co=256 " turn on 256 colors for terminals that support it
 
-" colorscheme dracula
-colorscheme default
+colorscheme dracula
+" colorscheme default
 
 set laststatus=2 "for powerline
 
