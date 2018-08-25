@@ -28,6 +28,11 @@
     "command": "extension.advancedNewFile",
   },
   {
+    "key": "cmd+shift+;",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
     "key": "cmd+k t",
     "command": "workbench.action.terminal.focusNext"
   },
