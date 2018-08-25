@@ -1,9 +1,10 @@
 ### PATH + EXPORTS
-  export ANDROID_HOME="$HOME/Library/Android/sdk"
-  set PATH $PATH ./node_modules/.bin /usr/local/opt/postgresql@9.4/bin
-  set PATH $PATH $ANDROID_HOME/tools $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools
-  set PATH $PATH ~/workspace/flutter/bin
-  set PATH $PATH /usr/local/opt/libxml2/bin
+  # export ANDROID_HOME="$HOME/Library/Android/sdk"
+  set PATH $PATH ./node_modules/.bin
+  # set PATH $PATH /usr/local/opt/postgresql@9.4/bin
+  # set PATH $PATH $ANDROID_HOME/tools $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools
+  # set PATH $PATH ~/workspace/flutter/bin
+  # set PATH $PATH /usr/local/opt/libxml2/bin
 
   set -x -U GOPATH $HOME/.go
   export EDITOR='vim'
