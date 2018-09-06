@@ -17,7 +17,10 @@ mcd () { mkdir -p "$1" && cd "$1"; }    # mcd: Makes new Dir and jumps inside
 
 export PATH="/usr/local/bin/rbenv:/usr/local/sbin:/usr/local/bin:$PATH"
 export EDITOR=vim
-export PS1="\w ▶ "
+source ~/.git-completion.bash
+source ~/.git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+export PS1='\w$(__git_ps1 " (%s)") ▶ '
 
 source ~/.work-shortcuts
 
