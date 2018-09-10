@@ -75,7 +75,8 @@
     "statusBar.noFolderBackground": "#005f5f",
     "statusBar.debuggingBackground": "#005f5f"
   },
-  "workbench.colorTheme": "Base16 Light Google",
+  "workbench.colorTheme": "Base16 Dark Oceanic Next",
+  "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": true,
