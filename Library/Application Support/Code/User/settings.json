@@ -3,7 +3,6 @@
   "editor.cursorStyle": "line",
   "editor.fontFamily": "Operator Mono",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "boundary",
@@ -68,14 +67,14 @@
     "visualblock": "#86592d",
     "replace": "#000000"
   },
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {
     "statusBar.background": "#005f5f",
     "statusBar.noFolderBackground": "#005f5f",
     "statusBar.debuggingBackground": "#005f5f"
   },
-  "workbench.colorTheme": "Base16 Dark Oceanic Next",
+  "workbench.colorTheme": "Base16 Dark Flat",
   "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "newUntitledFile",
@@ -87,11 +86,17 @@
   "vim.smartcase": true,
   "vim.easymotionMarkerFontFamily": "Operator Mono",
   "breadcrumbs.enabled": true,
-  "github.hosts": [
+  "terminal.integrated.rendererType": "dom",
+  "editor.fontSize": 13,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.statusBar.format": "${authorAgoOrDate}: ${message}",
+  "workbench.statusBar.feedback.visible": false,
+  "githubPullRequests.hosts": [
     {
       "host": "https://github.com",
       "username": "oauth",
       "token": "system"
     }
-  ]
+  ],
+  "git.autofetch": true
 }
