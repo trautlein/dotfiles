@@ -33,11 +33,11 @@
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+k t",
+    "key": "cmd+t j",
     "command": "workbench.action.terminal.focusNext"
   },
   {
-    "key": "cmd+k cmd+r",
+    "key": "cmd+t k",
     "command": "workbench.action.terminal.focusPrevious"
   },
   {
