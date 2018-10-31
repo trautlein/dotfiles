@@ -15,6 +15,14 @@ alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 mcd () { mkdir -p "$1" && cd "$1"; }    # mcd: Makes new Dir and jumps inside
 
+rg2 () { 
+  rg -l $1 * | xargs rg -l $2
+}
+
+rg3 () {
+  rg -l $1 * | xargs rg -l $2 | xargs rg -l $3
+}
+
 export PATH="/usr/local/bin/rbenv:/usr/local/sbin:/usr/local/bin:$PATH"
 export EDITOR=vim
 source ~/.git-completion.bash
