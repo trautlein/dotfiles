@@ -11,6 +11,7 @@ set backupdir=~/.vim/tmp
 set backupskip=/private/tmp/*,~/.vim/tmp
 set directory=~/.vim/tmp
 set writebackup
+set viminfo+=n~/.vim/viminfo
 
 set mouse=a "a refers to all modes
 

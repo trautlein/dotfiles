@@ -1,7 +1,7 @@
 [user]
 	name = Hans Trautlein
 	email = hans@trautlein.com
-	signingkey = 454B057262799F31
+	signingkey = 0111E5048E877DFF
 [push]
 	default = current
 [core]
@@ -12,7 +12,8 @@
   ca = commit --verbose --all
   cm = commit --message
   r = rm
-  l = log --graph --pretty=format:'%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  l = log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short
+  ll = log --graph --pretty=format:'%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   a = add
   aa = add --all
   d = diff
@@ -20,6 +21,7 @@
   ds = diff --stat
   dsc = diff --cached --stat
   dsc = diff --cached --stat
+  files = diff --name-only
   s = status --short --branch
   co = checkout
   cob = checkout -b
@@ -27,6 +29,7 @@
 	cd = icdiff
   pl = pull
   plr = pull --rebase
+  recent = "! git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print $3 }' | awk ' !x[$0]++' | egrep -v '^[a-f0-9]{40}$' | head -n5"
 [color "diff-highlight"]
 	oldNormal = red bold
 	oldHighlight = red bold 52
@@ -42,7 +45,6 @@
 [commit]
 	gpgsign = true
 [diff]
-	tool = default-difftool
 [difftool "default-difftool"]
-	cmd = code --wait --diff $LOCAL $REMOTE
+	cmd = code --wait --diff $LOCAL $:REMOTE
 

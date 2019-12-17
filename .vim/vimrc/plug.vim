@@ -16,6 +16,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'leafgarland/typescript-vim'
   Plug 'Quramy/tsuquyomi'
 
+  Plug 'tpope/vim-rails'
+
   Plug 'mattn/emmet-vim'
   " Plug 'ternjs/tern_for_vim'
   Plug 'JamshedVesuna/vim-markdown-preview'
@@ -50,6 +52,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'rizzatti/dash.vim'
   Plug 'danro/rename.vim'
   Plug 'mileszs/ack.vim'
+  Plug 'blindFS/vim-taskwarrior'
 call plug#end()
 filetype plugin indent on
 syntax enable

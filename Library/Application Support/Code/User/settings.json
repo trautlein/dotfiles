@@ -70,11 +70,15 @@
   "window.zoomLevel": 1,
   "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#000",
+    "titleBar.inactiveForeground": "#000000CC",
+    "titleBar.activeBackground": "#FFC600",
+    "titleBar.inactiveBackground": "#FFC600CC",
     "statusBar.background": "#005f5f",
     "statusBar.noFolderBackground": "#005f5f",
     "statusBar.debuggingBackground": "#005f5f"
   },
-  "workbench.colorTheme": "Base16 Dark Flat",
+  "workbench.colorTheme": "Visual Studio Light",
   "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "newUntitledFile",
@@ -88,15 +92,43 @@
   "breadcrumbs.enabled": true,
   "terminal.integrated.rendererType": "dom",
   "editor.fontSize": 13,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.statusBar.format": "${authorAgoOrDate}: ${message}",
+  "gitlens.statusBar.format": "${author}, ${agoOrDate}: ${message}",
   "workbench.statusBar.feedback.visible": false,
-  "githubPullRequests.hosts": [
-    {
-      "host": "https://github.com",
-      "username": "oauth",
-      "token": "system"
-    }
+  "git.autofetch": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "githubPullRequests.telemetry.enabled": false,
+  "gitlens.advanced.telemetry.enabled": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "workbench.editor.showTabs": true,
+  "solargraph.symbols": false,
+  "ruby.rubocop.useBundler": true,
+  "[ruby]": {
+    "editor.defaultFormatter": "rebornix.ruby"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "gitlens.codeLens.scopes": [
+    "document"
   ],
-  "git.autofetch": true
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Comment",
+        "scope": [
+          "comment",
+          "comment.block",
+          "comment.block.documentation",
+          "comment.line",
+          "comment.line.double-slash",
+          "punctuation.definition.comment",
+        ],
+        "settings": {
+          // "fontStyle": "",
+          "fontStyle": "italic",
+          // "fontStyle": "italic underline",
+          // "fontStyle": "italic bold underline",
+        }
+      },
+    ]
+  }
 }

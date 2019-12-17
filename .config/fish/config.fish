@@ -16,7 +16,9 @@
   status --is-interactive; and source (rbenv init -|psub)
 
 ### ALIASES
-  alias t='task'
+  # alias t='task'
+  abbr -a -g t task
+  abbr -a -g g git
 
   alias ta='tmux attach -t'
   alias tn='tmux new -s'
@@ -25,6 +27,13 @@
   alias st='ssh thinkpad -t tmux attach'
   alias stt='ssh thinkpad -t'
   alias m='mosh hans@trautle.in --ssh="ssh -p 1228 -i ~/.ssh/id_internal_rsa" tmux attach'
+
+  abbr -a -g be 'bundle exec'
+  abbr -a -g ber 'bundle exec rails'
+
+  abbr -a -g ta "task add"
+  abbr -a -g taw "task add +work"
+  abbr -a -g tap "task add +personal"
 
   alias c='clear'
   alias g='git'

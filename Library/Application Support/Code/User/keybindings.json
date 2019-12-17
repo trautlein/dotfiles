@@ -41,7 +41,7 @@
     "command": "workbench.action.terminal.focusPrevious"
   },
   {
-    "key": "cmd+t cmd+n",
+    "key": "cmd+t n",
     "command": "workbench.action.terminal.newInActiveWorkspace"
   },
   {
@@ -52,4 +52,43 @@
     "key": "cmd+k cmd+t",
     "command": "workbench.action.selectTheme"
   },
+  {
+    "key": "cmd+ctrl+p",
+    "command": "workbench.action.gotoMethod"
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "-editor.action.previousMatchFindAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "-workbench.action.terminal.findPrevious",
+    "when": "terminalFindWidgetFocused"
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "-workbench.action.terminal.findPreviousTerminalFocus",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm"
+  },
+  {
+    "key": "ctrl+alt+cmd+'",
+    "command": "workbench.action.tasks.build"
+  },
+  {
+    "key": "shift+cmd+b",
+    "command": "-workbench.action.tasks.build"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.tasks.runTask"
+  }
 ]
