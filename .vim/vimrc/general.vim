@@ -4,6 +4,8 @@ set incsearch
 set hlsearch
 set ignorecase
 set smartcase
+set foldmethod=indent
+set nofoldenable
 
 """Backup Options"""
 set backup
