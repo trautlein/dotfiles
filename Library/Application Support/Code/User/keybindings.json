@@ -45,7 +45,7 @@
     "command": "workbench.action.terminal.newInActiveWorkspace"
   },
   {
-    "key": "cmd+shift+j",
+    "key": "shift+cmd+b",
     "command": "workbench.action.toggleActivityBarVisibility"
   },
   {
