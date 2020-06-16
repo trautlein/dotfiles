@@ -9,16 +9,16 @@
   set -x -U GOPATH $HOME/.go
   export EDITOR='vim'
 
-###TEMP
+  ###TEMP
   export POSTGRES_USER=rx
   export POSTGRES_PASSWORD=testing123
   # export RX_ID=az-staging
-  status --is-interactive; and source (rbenv init -|psub)
+  # status --is-interactive; and source (rbenv init -| psub)
 
 ### ALIASES
-  # alias t='task'
   abbr -a -g t task
   abbr -a -g g git
+  abbr -a -g k kubectl
 
   alias ta='tmux attach -t'
   alias tn='tmux new -s'
@@ -35,6 +35,7 @@
   abbr -a -g taw "task add +work"
   abbr -a -g tap "task add +personal"
 
+  alias b='bash'
   alias c='clear'
   alias g='git'
   alias v='vim'
